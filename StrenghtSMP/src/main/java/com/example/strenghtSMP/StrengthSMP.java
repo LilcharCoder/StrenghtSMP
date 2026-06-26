@@ -33,7 +33,7 @@ public class StrengthSMP extends JavaPlugin {
         getCommand("sslives").setExecutor(new Commands(this, dataManager));
 
 
-// Apply effects for players already online (e.g., reload)
+
         Bukkit.getOnlinePlayers().forEach(p -> dataManager.applyEffectsIfAlive(p));
 
 
