@@ -28,7 +28,6 @@ public class KillListener implements Listener {
         if (killer == null) return;
 
 
-// Killer gains a kill -> increase strength
         dataManager.addKill(killer);
 
 
