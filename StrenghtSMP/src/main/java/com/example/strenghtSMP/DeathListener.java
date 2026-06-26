@@ -21,7 +21,6 @@ public class DeathListener implements Listener {
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {
         Player dead = event.getEntity();
-// Reduce lives and handle consequences
         dataManager.handleDeath(dead);
 
 
