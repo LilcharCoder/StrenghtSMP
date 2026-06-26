@@ -63,7 +63,6 @@ public class Commands implements CommandExecutor, TabCompleter {
             return true;
         }
 
-        // show lives
         if (args.length == 1) {
             Player target = Bukkit.getPlayer(args[0]);
             if (target == null) { sender.sendMessage("Player not found"); return true; }
