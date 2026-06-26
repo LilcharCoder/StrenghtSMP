@@ -20,7 +20,7 @@ public class KillListener implements Listener {
     }
 
 
-    // We'll listen to PlayerDeathEvent to catch kills
+    
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent event) {
         Player dead = event.getEntity();
